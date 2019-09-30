@@ -1,0 +1,86 @@
+.card {
+    width: 200px;
+}
+
+.cloth-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+    border: 1px solid red;
+}
+
+.item-container {
+    position: relative;
+    width: 200px;
+    height: 350px;
+    border: 1px solid blue;
+}
+
+.item-img-container {
+    position: relative;
+    width: 100%;
+    height: 75%;
+    border: 1px solid magenta;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.item-name {
+    position: absolute;
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    bottom: 60px;
+    border: 1px solid maroon;
+    line-height: 30px;
+}
+
+.item-detail {
+    position: absolute;
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    bottom: 30px;
+    border: 1px solid maroon;
+    line-height: 30px;
+}
+
+.item-price {
+    position: absolute;
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    bottom: 0px;
+    border: 1px solid maroon;
+    line-height: 30px;
+}
+
+.hover-part {
+    position: absolute;
+    width: 100%;
+    height: 80px;
+    border: 1px solid greenyellow;
+    bottom: 30px;
+    background-color: white;
+}
+
+.button {
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    border: 1px solid rgb(224, 80, 200);
+}
+
+.left-btn {
+    left: 10px;
+}
+
+.right-btn {
+    right: 10px;
+}
+
+.size-chart {
+    position: absolute;
+    bottom: 0px;
+    padding: 10px;
+}

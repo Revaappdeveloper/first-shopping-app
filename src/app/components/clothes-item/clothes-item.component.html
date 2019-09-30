@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-4" *ngFor="let item of dataReceived">
+            <div class="card mb-4 shadow-sm">
+                <div class="cloth-container">
+                    <div class="item-container" (mouseover)="show(item, 'showHide' )" (mouseleave)="hide(item, 'showHide')">
+                        <div class="item-img-container" [style.backgroundImage]="item.imgPath"></div>
+                        <div class="item-name">Name</div>
+                        <div class="item-detail">Detail</div>
+                        <div class="item-price">Price</div>
+                        <div class="hover-part" *ngIf='item.showHide'>
+                            <div class="button left-btn">Add to bag</div>
+                            <div class="button right-btn">Wishlist</div>
+                            <div class="size-chart">Sizes: S, M, L, XL, XXL</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

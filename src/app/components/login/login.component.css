@@ -1,0 +1,18 @@
+.form-signin {
+    position: absolute;
+    width: 250px;
+    top: 30%;
+    right: 0;
+    transform: translateX(-2%) translateY(-2%);
+}
+
+img {
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.font-weight-normal {
+    text-align: center;
+    color: rgb(57, 25, 172);
+}
